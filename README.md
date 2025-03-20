@@ -29,6 +29,12 @@ Numpy
 
 matplotlib
 
+sklearn
+
+- tree
+
+- train_test_split
+
 ### Platform:
 
 Windows 10
@@ -41,9 +47,19 @@ LICENSE
 
 SCRIPTS
 
+- Project 2 Code
+
 DATA
 
+- CPI.csv
+- Data Appendix
+- National Median Home Prices.csv
+- cleaned_housing.csv
+  
 OUTPUT
+
+- grade_scale.csv
+- 
 
 References 
 
