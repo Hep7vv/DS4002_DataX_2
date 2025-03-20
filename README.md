@@ -35,6 +35,8 @@ sklearn
 
 - train_test_split
 
+- RandomForestRegressor
+
 ### Platform:
 
 Windows 10
@@ -64,5 +66,16 @@ References
 
 ## Section 3: Reproducing Results
 
+Step 1: importing addons
 
+Start by importing pandas, numpy, matplotlib, and sklearn (import tree, RandomForestRegressor, and train_test_split from sklearn) these will be used for data cleaning, plotting, and running a random forest regressor model respectively
 
+Step 2: import data
+
+Download all files under the "Data" folder in this repository. 
+
+Step 3: Clean Data
+
+Step 4: Analysis
+
+Step 5: Plot Results
