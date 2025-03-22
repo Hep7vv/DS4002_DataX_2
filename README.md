@@ -72,10 +72,15 @@ Start by importing pandas, numpy, matplotlib, and sklearn (import tree, RandomFo
 
 Step 2: import data
 
-Download all files under the "Data" folder in this repository. 
+Download all files under the "Data" folder in this repository. create a dataframe called "merged_df" that joins the housing data according to "ParcelNumber". 
+
+create a dataframe from the CPI data
 
 Step 3: Clean Data
 
+drop all empty values from the dataframe, drop all values where teh sale amount is 0, drop all values that equal 'no dat', drop the extreme outliers (Debrooms equal 2215), drop the yearsbuilt that are prior to 1950 and after 2025, Convert Housing grades into numeric scores using the "grade_scale.PNG" in the OUTPUT folder for reference i.e. A++ == 10. 
+
+With the CPI datafrome convert 'DATE' to a datetime format and extract the year (SaleDate). etract a 3 digit year and then convert to a full year, drop the two-year column, compute the average CPI per year, Merge the yearly average CPI back into the original DataFrame with the housing data
+
 Step 4: Analysis
 
-Step 5: Plot Results
