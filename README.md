@@ -74,13 +74,26 @@ Step 2: import data
 
 Download all files under the "Data" folder in this repository. create a dataframe called "merged_df" that joins the housing data according to "ParcelNumber". 
 
-create a dataframe from the CPI data
+create a dataframe from the CPI data 
 
 Step 3: Clean Data
 
 drop all empty values from the dataframe, drop all values where teh sale amount is 0, drop all values that equal 'no dat', drop the extreme outliers (Debrooms equal 2215), drop the yearsbuilt that are prior to 1950 and after 2025, Convert Housing grades into numeric scores using the "grade_scale.PNG" in the OUTPUT folder for reference i.e. A++ == 10. 
 
-With the CPI datafrome convert 'DATE' to a datetime format and extract the year (SaleDate). etract a 3 digit year and then convert to a full year, drop the two-year column, compute the average CPI per year, Merge the yearly average CPI back into the original DataFrame with the housing data
+With the CPI datafrome convert 'DATE' to a datetime format and extract the year (SaleDate). etract a 3 digit year and then convert to a full year, drop the two-year column, compute the average CPI per year, Merge the yearly average CPI back into the original DataFrame with the housing data.
+
+drop duplicate entries from the large dataset
+
+compute the mean and standard deviation of sale amount to find the z score, drop values that have a z score greater than 3
 
 Step 4: Analysis
 
+use sklearn to import tree and train_test_split. 
+
+resample and process data, fit to the decision tree, visualize results
+
+split data into training rows and testing rows, bootstrap, split into a train/test set,
+
+bootstrap by creating a sample, fitting to decision tree, computing the rsq, and then making and saving predictions
+
+build a random forest model, fit the rf model, model predictions
