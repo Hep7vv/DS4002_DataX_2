@@ -49,20 +49,33 @@ LICENSE
 
 SCRIPTS
 
-- Project 2 Code
+- final_code.ipnyb
 
 DATA
 
 - CPI.csv
 - Data Appendix
-- National Median Home Prices.csv
+- Real_Estate_(Residential_Details).csv
+- Real_Estate_(Sales).csv
+- UVA Enrollment Data.csv
 - cleaned_housing.csv
   
 OUTPUT
 
-- grade_scale.csv
+- allvariable_importance.PNG
+- allvariable_prediction_rsq.PNG
+- allvariable_tree.PNG
+- enroll_prediction_rsq.PNG
+- enroll_tree.PNG
+- grade_scale.PNG
+- price_beds.PNG
+- price_enrollment.PNG
+- price_footage.PNG
+- price_grade.PNG
+- price_year.PNG
+- price_yearbuilt.PNG
 
-References 
+REFRENCES.md
 
 ## Section 3: Reproducing Results
 
